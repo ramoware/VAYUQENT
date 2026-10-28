@@ -1,10 +1,10 @@
-# RES-Q — The Q-Sentinel That Never Sleeps
+# The Q-Sentinel That Never Sleeps
 
-> **RES (Respiration) + Q (Q-Sentinel): A contactless respiratory guardian that watches breath using WiFi.**
+> **Q-Sentinel: A contactless respiratory guardian that watches breath using WiFi.**
 
 **Tagline: No wires. No touch. No false alarms. Just breath.**
 
-RES-Q is a contactless respiratory Digital Twin system that turns any low-cost WiFi chip into a medical-grade apnea monitor. No wearables, no cameras, no expensive ventilators. Just the WiFi you already have.
+Q-sentinal is a contactless respiratory Digital Twin system that turns any low-cost WiFi chip into a medical-grade apnea monitor. No wearables, no cameras, no expensive ventilators. Just the WiFi you already have.
 
 ---
 
@@ -17,9 +17,9 @@ Current continuous respiratory monitors have two failures:
 
 In an ICU/NICU, a false alarm is not an annoyance. It's alarm fatigue that costs lives.
 
-### Introducing RES-Q: Q-Factor Obstructive Response Alert
+### Introducing Q-sentinal: Q-Factor Obstructive Response Alert
 
-RES-Q is the world's first **Q-Sentinel**. Instead of treating WiFi signals as abstract images, we teach physics to the neural network.
+Q-sentinal is the world's first **Q-Sentinel**. Instead of treating WiFi signals as abstract images, we teach physics to the neural network.
 
 **How it works:**
 
@@ -27,22 +27,22 @@ RES-Q is the world's first **Q-Sentinel**. Instead of treating WiFi signals as a
 
 **2. PINN on Edge - No Cloud, No Lag:** State-of-the-art systems use CNN + LSTM models that need desktop GPUs and large time buffers. This creates dangerous latency.
 
-RES-Q implements a **Physics-Informed Neural Network (PINN)** compiled via piecewise non-linear approximation to run directly on an **ultra-low-cost ESP32 microcontroller** — not an FPGA, not a Raspberry Pi 4. It builds a live digital twin of Volume and Pressure.
+Q-sentinal implements a **Physics-Informed Neural Network (PINN)** compiled via piecewise non-linear approximation to run directly on an **ultra-low-cost ESP32 microcontroller** — not an FPGA, not a Raspberry Pi 4. It builds a live digital twin of Volume and Pressure.
 
 **3. Physics Gate Artifact Rejection:** This is our breakthrough. Old systems use only frequency — so motion *looks* like breathing.
 
-RES-Q uses quantitative volume + pressure validation. If the physics doesn't add up, it's rejected automatically.
+Q-sentinal uses quantitative volume + pressure validation. If the physics doesn't add up, it's rejected automatically.
 
 > **Result: 13.2% automatic artifact rejection. Zero post-processing window. Real-time.**
 
 **BEFORE (Standard CSI):** Body shift = 40+ spikes = False apnea alarm.
-**AFTER (RES-Q):** Body shift = Rejected by Physics Gate. Valid breaths = Black dots. Clean breathing continues.
+**AFTER (Q-sentinal):** Body shift = Rejected by Physics Gate. Valid breaths = Black dots. Clean breathing continues.
 
 ---
 
-### Why RES-Q Wins
+### Why Q-sentinal Wins
 
-| Feature | Standard Devices / BreatheSmart, CNN+LSTM | RES-Q |
+| Feature | Standard Devices / BreatheSmart, CNN+LSTM | Q-sentinal |
 | :--- | :--- | :--- |
 | **Cost** | $3000+ ventilator or $150+ FPGA/RPi4 | **<$15 ESP32** - Built for Bharat and low-resource hospitals |
 | **Contact** | Wearable / Belt / Camera (Privacy risk) | **100% Contactless** - No touch, no infection, no camera |
@@ -66,20 +66,20 @@ RES-Q uses quantitative volume + pressure validation. If the physics doesn't add
 
 ### Etymology & Brand Promise
 
-**RES-Q** is a coined word to own the future of breath.
+**Q-sentinal** is a coined word to own the future of breath.
 
 - **VAYU:** Sanskrit for life-breath, air, the first thing we do and last we do.
 - **QENT:** Q-Sentinel. Q = Q-Factor of WiFi CSI, ENT = Sentinel - the soldier who never sleeps.
 
-Search `RES-Q` anywhere in the world. Only we exist. That is how unique our promise is.
+Search `Q-sentinal` anywhere in the world. Only we exist. That is how unique our promise is.
 
-**Numerology:** RES-Q = 3 - The number of communication and alerting. Exactly what a sentinel must do.
+**Numerology:** Q-sentinal = 3 - The number of communication and alerting. Exactly what a sentinel must do.
 
 ### Roadmap
 
 - [x] Phase 1: ESP32 CSI capture + Physics Gate (13.2% rejection proven)
 - [ ] Phase 2: Clinical validation for apnea alert latency < 2s
-- [ ] Phase 3: RES-Q Box - Plug-and-play router that is a sentinel
+- [ ] Phase 3: Q-sentinal Box - Plug-and-play router that is a sentinel
 - [ ] Phase 4: VAYURAQ Score - Our own Respiratory Alert Quotient to replace AHI
 
 ### References & Inspiration
@@ -91,7 +91,7 @@ Built on the shoulders of:
 
 ---
 
-**RES-Q — The Q-Sentinel That Never Sleeps.**
+**Q-sentinal — The Q-Sentinel That Never Sleeps.**
 
 > Contact: Pranitajagtap and ramoware
 > Status: Research Prototype | Seeking Clinical Partners
