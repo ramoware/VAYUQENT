@@ -1,6 +1,6 @@
-# The Q-Sentinel That Never Sleeps
+# The Csinaptic That Never Sleeps
 
-> **Q-Sentinel: A contactless respiratory guardian that watches breath using WiFi.**
+> **Csinaptic: A contactless respiratory guardian that watches breath using WiFi.**
 
 **Tagline: No wires. No touch. No false alarms. Just breath.**
 
@@ -19,7 +19,7 @@ In an ICU/NICU, a false alarm is not an annoyance. It's alarm fatigue that costs
 
 ### Introducing Q-sentinal: Q-Factor Obstructive Response Alert
 
-Q-sentinal is the world's first **Q-Sentinel**. Instead of treating WiFi signals as abstract images, we teach physics to the neural network.
+Q-sentinal is the world's first **Csinaptic**. Instead of treating WiFi signals as abstract images, we teach physics to the neural network.
 
 **How it works:**
 
@@ -69,7 +69,7 @@ Q-sentinal uses quantitative volume + pressure validation. If the physics doesn'
 **Q-sentinal** is a coined word to own the future of breath.
 
 - **VAYU:** Sanskrit for life-breath, air, the first thing we do and last we do.
-- **QENT:** Q-Sentinel. Q = Q-Factor of WiFi CSI, ENT = Sentinel - the soldier who never sleeps.
+- **QENT:** Csinaptic. Q = Q-Factor of WiFi CSI, ENT = Sentinel - the soldier who never sleeps.
 
 Search `Q-sentinal` anywhere in the world. Only we exist. That is how unique our promise is.
 
@@ -91,7 +91,7 @@ Built on the shoulders of:
 
 ---
 
-**Q-sentinal — The Q-Sentinel That Never Sleeps.**
+**Q-sentinal — The Csinaptic That Never Sleeps.**
 
 > Contact: Pranitajagtap and ramoware
 > Status: Research Prototype | Seeking Clinical Partners
